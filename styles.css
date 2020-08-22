@@ -1,0 +1,70 @@
+/*Complete website marging and padding*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins",
+      "Lucida Sans", Arial, sans-serif;
+  }
+
+  #header{
+      margin-top: 10px;
+      margin-bottom: 10px;
+  }
+
+  #bluetooth-details{
+      border: 3px solid whitesmoke;
+      padding: 25px;
+      margin: 10px 30px;
+      filter: drop-shadow(10px 10px 10px 10px grey);  }
+
+  .bluetooth-circle{
+    height: 100px;
+    width: 100px;
+    border: 1px solid #3585d5;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 50px;
+    line-height: 100px;
+    color: #3585d5;
+  }
+
+  .details{
+      float: right; 
+      margin-left: 10px;
+  }
+
+ .icon-mini{
+      margin-top: 10px;
+      margin-right: 20px;
+      margin-left: 15px;
+      font-size: 20px;
+  }
+
+  #bottom-details{
+      margin-top: 350px;
+  }
+
+  .container .details-collection {
+    display: flex;
+    margin: 40px 0px;
+    user-select: none;
+}
+
+.container .details-collection .item {
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
+
+.icon{
+    font-size: 20px;
+    color: black;
+}
+
+.item{
+    color: black;
+}
+
+a{
+    text-decoration: none !important;
+}
