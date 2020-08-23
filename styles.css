@@ -100,3 +100,127 @@ a{
 #bottom-details-two{
     margin-top: 200px;
 }
+
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  ul li {
+    /* border: 1px solid #ddd; */
+    margin-top: -1px; /* Prevent double borders */
+    /* background-color: #f6f6f6; */
+    padding: 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block;
+    position: relative;
+
+  }
+
+  ul li:after {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 100%;
+    margin: 7px;
+    background: black;
+    }
+
+span.anchor-right{
+    float: right;
+    margin-top: 10px;
+    color: grey;
+    border: none;
+    font-weight: 900;
+}
+
+.icon-left{
+    font-size: 20px;
+    color: black;
+    display: inline-block;
+}
+
+
+.phone-icon-list{
+    height: 40px;
+    width: 40px;
+    border: 1px solid #74B1FF;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 20px;
+    line-height: 40px;
+    color: #fff;
+    background-color: #74B1FF;
+}
+
+.cog-icon-list{
+    height: 40px;
+    width: 40px;
+    border: 1px solid #51D1FC;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 20px;
+    line-height: 40px;
+    color: #fff;
+    background-color: #51D1FC;
+}
+
+
+.wrench-icon-list{
+    height: 40px;
+    width: 40px;
+    border: 1px solid #9DA8DE;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 20px;
+    line-height: 40px;
+    color: #fff;
+    background-color: #9DA8DE;
+}
+
+
+.exclamation-triangle-icon-list{
+    height: 40px;
+    width: 40px;
+    border: 1px solid #F6B74A;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 20px;
+    line-height: 40px;
+    color: #fff;
+    background-color: #F6B74A;
+}
+
+
+
+.buttons{
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+.first-design{
+    margin-bottom: 40px;
+    background-color: #F6B74A !important;
+    border: none !important;
+    width: 50%
+}
+
+.second-design{
+    margin-bottom: 40px;
+    background-color: #9DA8DE !important;
+    border: none !important;
+    width: 50%
+}
+
+.third-design{
+    margin-bottom: 40px;
+    background-color: #3585d5 !important;
+    border: none !important;
+    width: 50%
+}
